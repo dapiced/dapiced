@@ -82,7 +82,7 @@ I focus on delivering robust and secure solutions through active team collaborat
 - Security & Compliance (NERC, CIS)
 - Team Collaboration
 
-## Hobbies
+## 🏅 Hobbies
 
 Beyond software development, I am deeply passionate about several scientific domains. My interests include:
 
