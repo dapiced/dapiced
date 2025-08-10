@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Domenico D'Apice
+# 👋 Hi, I’m Dominic D'Apice
 
 **Cloud/Linux Administrator & IaC Developer**  
 🌍 Montreal Area, Canada  
@@ -81,6 +81,16 @@ I focus on delivering robust and secure solutions through active team collaborat
 - DevOps & CI/CD Practices
 - Security & Compliance (NERC, CIS)
 - Team Collaboration
+
+## Hobbies
+
+Beyond software development, I am deeply passionate about several scientific domains. My interests include:
+
+- **Astronomy:** Exploring the cosmos, learning about celestial bodies, and staying current with astronomical research and discoveries.
+- **Artificial Intelligence:** Studying AI techniques, advancements in machine learning, and their applications in real-world scenarios.
+- **Science & Physics:** Engaging with a broad spectrum of scientific topics, with a particular focus on physics, to better understand the fundamental laws that govern our universe.
+
+These pursuits fuel my curiosity, inspire my projects, and drive my commitment to lifelong learning and innovation.
 
 ---
 
