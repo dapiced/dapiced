@@ -111,6 +111,9 @@ I am excited to share my discoveries, experiments, and successes in this rapidly
 - DevOps & CI/CD Practices
 - Security & Compliance (NERC, CIS)
 - Team Collaboration
+- AI platform
+- Data science ML
+- Azure cloud
 
 ## 🏅 Hobbies
 
