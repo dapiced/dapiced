@@ -1,15 +1,36 @@
 # 👋 Hi, I’m Dominic D'Apice
 
-**Cloud/Linux Administrator & IaC Developer**  
+**Developer - Azure Infrastructure AI**  
 🌍 Montreal Area, Canada  
 
 ---
 
 ## 📝 Summary
 
-I am currently a Cloud/Linux Administrator and Infrastructure as Code (IaC) Developer, with over 15 years of experience in managing and automating complex IT systems. My main responsibilities include supervising a cloud infrastructure self-service platform, developing IaC solutions, and ensuring product compliance in critical environments (NERC).
+I am currently a Developer - Azure Infrastructure AI, with over 15 years of experience managing and automating complex IT systems.
 
-I focus on delivering robust and secure solutions through active team collaboration and modern management tools. My goal is to simplify processes, enhance security, and support scalable infrastructures aligned with business priorities.
+Develop and optimize Azure infrastructures to support AI workloads, data engineering, and critical pipelines.
+Deploy and maintain Databricks environments (clusters, jobs, models, data pipelines), ensuring their performance, security, and compliance.
+Automate operations and deployments (IaC, CI/CD, scripts, orchestrations) to improve reliability and reduce manual intervention.
+Collaborate with Data Science, AI, and IT teams to transform business needs into robust and scalable cloud solutions.
+Implement MLOps and DataOps best practices, including model management, data governance, monitoring, and observabilit.
+Contribute to the evolution of data and AI architectures in a strategic and highly critical environment.
+With an approach focused on efficiency, quality, and innovation, I am working to build a modern and sustainable infrastructure that supports digital transformation.
+
+I am currently enrolled in a University Certificate in Data Science, a program that allows me to develop skills in statistics, programming, and applied analysis.
+
+In parallel, I actively participate in Machine Learning competitions on Kaggle (kaggle.com), a stimulating environment where I can put my learning into practice, test my models against real-world problems, and grow by connecting with a passionate international community.
+
+This new focus on data science and artificial intelligence is a true passion for me. It allows me to connect my expertise in infrastructure and automation to strategic data-related challenges and pave the way for new and innovative projects.
+
+I am excited to share my discoveries, experiments, and successes in this rapidly evolving field.
+
+#DataScience
+#MachineLearning
+#Kaggle
+#AI
+#ContinuousLearning
+#BigData
 
 ---
 
@@ -27,7 +48,16 @@ I focus on delivering robust and secure solutions through active team collaborat
 
 ## 💼 Professional Experience
 
-### 
+###
+- **Developer - Azure AI Infrastructure *(2026 - present)*
+  - Develop and optimize Azure infrastructures to support AI workloads, data engineering, and critical pipelines.*
+  - Deploy and maintain Databricks environments (clusters, jobs, models, data pipelines), ensuring their performance, security, and compliance.
+  - Automate operations and deployments (IaC, CI/CD, scripts, orchestrations) to improve reliability and reduce manual intervention.
+  - Collaborate with Data Science, AI, and IT teams to transform business needs into robust and scalable cloud solutions.
+  - Implement MLOps and DataOps best practices, including model management, data governance, monitoring, and observability.
+  - Contribute to the evolution of data and AI architectures in a strategic and highly critical environment.
+  - With an approach focused on efficiency, quality and innovation, I am working to build a modern and sustainable infrastructure that supports digital transformation.
+    
 - **Cloud/Linux Administrator & IaC Developer** *(2018 - Present)*
   - Manage cloud infrastructure self-service for business clients
   - Develop and automate IaC solutions for diverse client needs
