@@ -58,7 +58,7 @@ I am excited to share my discoveries, experiments, and successes in this rapidly
   - Contribute to the evolution of data and AI architectures in a strategic and highly critical environment.
   - With an approach focused on efficiency, quality and innovation, I am working to build a modern and sustainable infrastructure that supports digital transformation.
     
-- **Cloud/Linux Administrator & IaC Developer** *(2018 - Present)*
+- **Cloud/Linux Administrator & IaC Developer** *(2018 - 2025)*
   - Manage cloud infrastructure self-service for business clients
   - Develop and automate IaC solutions for diverse client needs
   - Monitor and update cloud product offerings in NERC environments
