@@ -36,7 +36,7 @@ I am excited to share my discoveries, experiments, and successes in this rapidly
 
 ## 🛠️ Technologies & Tools
 
-- **Cloud & Virtualization:** VMware Aria Automation/Orchestrator, vCenter, VxRail HCI
+- **Cloud & Virtualization:** VMware Aria Automation/Orchestrator, vCenter, VxRail HCI, Azure, Databricks, ML
 - **Configuration & Automation:** Ansible, Packer, PowerShell, Bash, TeamCity, Red Hat Satellite, WSUS, Kickstart, Autoyast, CFengine
 - **Programming:** Python, JavaScript, Perl, Bash, Korn, PowerShell
 - **OS & Systems:** Red Hat Enterprise Linux, SUSE SLES, Windows, AIX, Solaris, HP Unix
