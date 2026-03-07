@@ -49,8 +49,8 @@ I am excited to share my discoveries, experiments, and successes in this rapidly
 ## 💼 Professional Experience
 
 ###
-- **Developer - Azure AI Infrastructure *(2026 - present)*
-  - Develop and optimize Azure infrastructures to support AI workloads, data engineering, and critical pipelines.*
+- **Developer - Azure AI Infrastructure** *(2026 - present)*
+  - Develop and optimize Azure infrastructures to support AI workloads, data engineering, and critical pipelines.
   - Deploy and maintain Databricks environments (clusters, jobs, models, data pipelines), ensuring their performance, security, and compliance.
   - Automate operations and deployments (IaC, CI/CD, scripts, orchestrations) to improve reliability and reduce manual intervention.
   - Collaborate with Data Science, AI, and IT teams to transform business needs into robust and scalable cloud solutions.
