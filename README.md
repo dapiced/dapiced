@@ -7,6 +7,12 @@
   <img src="https://img.shields.io/badge/Focus-Data%20Science%20%7C%20AI%20%7C%20Cloud-brightgreen?style=flat-square" alt="Focus" />
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/dapiced/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.kaggle.com/dominicdapice"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+  <a href="https://github.com/dapiced"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
 ---
 
 ## About Me
@@ -18,7 +24,7 @@ Developer - Azure Infrastructure AI with **25+ years of experience** managing an
 - Partnering with Data Science, AI, and IT teams to turn business needs into scalable cloud solutions.
 - Applying **MLOps** and **DataOps** best practices: model lifecycle, data governance, monitoring, and observability.
 
-Currently pursuing a **University Certificate in Data Science** to deepen my foundations in statistics, programming, and applied analysis — and competing on **Kaggle** to sharpen my ML skills against real-world problems.
+Currently pursuing a **University Certificate in Data Science** to deepen my foundations in statistics, programming, and applied analysis — and competing on [**Kaggle**](https://www.kaggle.com/dominicdapice) to sharpen my ML skills against real-world problems.
 
 > Connecting infrastructure expertise with data and AI to help build modern, sustainable platforms that support digital transformation.
 
