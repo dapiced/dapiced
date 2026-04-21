@@ -51,6 +51,7 @@ Currently pursuing a **University Certificate in Data Science** to deepen my fou
 
 **Operating Systems**  
 ![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
+![Red Hat Satellite](https://img.shields.io/badge/Red%20Hat%20Satellite-EE0000?style=flat-square&logo=redhat&logoColor=white)
 ![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![IBM AIX](https://img.shields.io/badge/IBM%20AIX-052FAD?style=flat-square&logo=ibm&logoColor=white)
