@@ -91,18 +91,20 @@
 
   <!-- constellation shaped like a cloud (the Azure kind) -->
   <g opacity="0.9">
-    <polyline points="100,215 118,193 142,183 168,188 184,170 210,164 236,171 252,185 272,188 282,202 272,215 100,215"
-              fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.45"
-              stroke-dasharray="6 5">
-      <animate attributeName="stroke-dashoffset" from="110" to="0" dur="9s" repeatCount="indefinite"/>
-    </polyline>
-    <g fill="#79c0ff">
-      <circle cx="100" cy="215" r="2.4"/><circle cx="118" cy="193" r="2"/><circle cx="142" cy="183" r="2.6"/>
-      <circle cx="168" cy="188" r="2"/><circle cx="184" cy="170" r="2.4"/><circle cx="210" cy="164" r="2.8"/>
-      <circle cx="236" cy="171" r="2"/><circle cx="252" cy="185" r="2.4"/><circle cx="272" cy="188" r="2"/>
-      <circle cx="282" cy="202" r="2.4"/><circle cx="272" cy="215" r="2"/>
+    <text x="64" y="192" text-anchor="start" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#58a6ff" opacity="0.75" letter-spacing="1">constellation: cloud-01</text>
+    <g transform="translate(-38,44)">
+      <polyline points="100,215 118,193 142,183 168,188 184,170 210,164 236,171 252,185 272,188 282,202 272,215 100,215"
+                fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.45"
+                stroke-dasharray="6 5">
+        <animate attributeName="stroke-dashoffset" from="110" to="0" dur="9s" repeatCount="indefinite"/>
+      </polyline>
+      <g fill="#79c0ff">
+        <circle cx="100" cy="215" r="2.4"/><circle cx="118" cy="193" r="2"/><circle cx="142" cy="183" r="2.6"/>
+        <circle cx="168" cy="188" r="2"/><circle cx="184" cy="170" r="2.4"/><circle cx="210" cy="164" r="2.8"/>
+        <circle cx="236" cy="171" r="2"/><circle cx="252" cy="185" r="2.4"/><circle cx="272" cy="188" r="2"/>
+        <circle cx="282" cy="202" r="2.4"/><circle cx="272" cy="215" r="2"/>
+      </g>
     </g>
-    <text x="191" y="238" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#58a6ff" opacity="0.75" letter-spacing="1">constellation: cloud-01</text>
     <animate attributeName="opacity" values="0.65;1;0.65" dur="6s" repeatCount="indefinite"/>
   </g>
 
@@ -129,10 +131,10 @@
 
   <!-- subtitle -->
   <g opacity="0">
-    <line x1="240" y1="152" x2="330" y2="152" stroke="#3d4f6d" stroke-width="1"/>
+    <line x1="118" y1="152" x2="175" y2="152" stroke="#3d4f6d" stroke-width="1"/>
     <text x="450" y="157" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif"
           font-size="14" font-weight="600" letter-spacing="4" fill="#9baec8">AZURE INFRASTRUCTURE AI &#183; MLOPS &#183; DATAOPS</text>
-    <line x1="570" y1="152" x2="660" y2="152" stroke="#3d4f6d" stroke-width="1"/>
+    <line x1="725" y1="152" x2="782" y2="152" stroke="#3d4f6d" stroke-width="1"/>
     <animate attributeName="opacity" from="0" to="1" dur="1.6s" begin="0.9s" fill="freeze"/>
   </g>
 
