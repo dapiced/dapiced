@@ -31,7 +31,7 @@ I design, deploy, and operate **Azure platforms that power AI workloads** — Da
 - 🔁 Automating operations end-to-end with **IaC, CI/CD, and orchestration**: fewer manual steps, more reliability
 - 🤝 Partnering with Data Science, AI, and IT teams to turn business needs into scalable cloud solutions
 - 📊 Applying **MLOps** and **DataOps** practices: model lifecycle, data governance, monitoring, observability
-- 🎓 Currently pursuing a **University Certificate in Data Science** and competing on [**Kaggle**](https://www.kaggle.com/dominicdapice)
+- 🎓 Finishing a **University Certificate in Data Science** and competing on [**Kaggle**](https://www.kaggle.com/dominicdapice)
 
 Because a profile should be reproducible, here is mine — as code:
 
