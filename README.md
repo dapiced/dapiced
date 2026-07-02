@@ -1,138 +1,239 @@
-<h1 align="center">Hi, I'm Dominic D'Apice</h1>
-<h3 align="center">Developer - Azure Infrastructure AI | MLOps &amp; DataOps | Cloud Automation</h3>
+<div align="center">
+  <img src="assets/header.svg" width="100%" alt="Dominic D'Apice — Azure Infrastructure AI" />
+</div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Montreal,%20Canada-%F0%9F%8C%8E-blue?style=flat-square" alt="Location" />
-  <img src="https://komarev.com/ghpvc/?username=dapiced&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Science%20%7C%20AI%20%7C%20Cloud-brightgreen?style=flat-square" alt="Focus" />
+  <a href="https://github.com/dapiced">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&center=true&vCenter=true&width=720&color=58A6FF&lines=Developer+%E2%80%94+Azure+Infrastructure+AI;25%2B+years+automating+complex+systems;MLOps+%C2%B7+DataOps+%C2%B7+Infrastructure+as+Code;Kaggle+competitor+%F0%9F%8F%86+%C2%B7+Data+Science+student;Stargazer+%E2%80%94+of+night+skies+and+repositories+%E2%9C%A8" alt="Typing animation" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dapiced/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.kaggle.com/dominicdapice"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
+  <a href="https://huggingface.co/dapiced"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face" /></a>
   <a href="https://github.com/dapiced"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/📍_Montréal,_Canada-1f6feb?style=flat-square" alt="Location" />
+  <img src="https://komarev.com/ghpvc/?username=dapiced&label=Profile+views&color=1f6feb&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Focus-AI_·_Cloud_·_Data-3fb950?style=flat-square" alt="Focus" />
+</p>
 
-## About Me
+<br/>
 
-Developer - Azure Infrastructure AI with **25+ years of experience** managing and automating complex IT systems. I design, deploy, and operate Azure platforms that power AI workloads, data engineering, and mission-critical pipelines.
+## 🛰️ Mission Control
 
-- Building and operating **Databricks** environments (clusters, jobs, models, pipelines) with a focus on performance, security, and compliance.
-- Automating operations end-to-end with **IaC, CI/CD, orchestration** — fewer manual steps, more reliability.
-- Partnering with Data Science, AI, and IT teams to turn business needs into scalable cloud solutions.
-- Applying **MLOps** and **DataOps** best practices: model lifecycle, data governance, monitoring, and observability.
+I design, deploy, and operate **Azure platforms that power AI workloads** — Databricks environments, data pipelines, and mission-critical systems. **25+ years** in the machine room taught me one thing: anything done twice by hand deserves to be automated.
 
-Currently pursuing a **University Certificate in Data Science** to deepen my foundations in statistics, programming, and applied analysis — and competing on [**Kaggle**](https://www.kaggle.com/dominicdapice) to sharpen my ML skills against real-world problems.
+- ⚙️ Building and operating **Databricks** platforms — clusters, jobs, models, pipelines — with performance, security, and compliance in mind
+- 🔁 Automating operations end-to-end with **IaC, CI/CD, and orchestration**: fewer manual steps, more reliability
+- 🤝 Partnering with Data Science, AI, and IT teams to turn business needs into scalable cloud solutions
+- 📊 Applying **MLOps** and **DataOps** practices: model lifecycle, data governance, monitoring, observability
+- 🎓 Currently pursuing a **University Certificate in Data Science** and competing on [**Kaggle**](https://www.kaggle.com/dominicdapice)
 
-> Connecting infrastructure expertise with data and AI to help build modern, sustainable platforms that support digital transformation.
+Because a profile should be reproducible, here is mine — as code:
 
----
+```yaml
+# ~/playbooks/dominic.yml
+- name: Deploy Dominic D'Apice
+  hosts: montreal.quebec.canada
+  gather_facts: true
 
-## Tech Stack
+  vars:
+    role: "Developer — Azure Infrastructure AI"
+    experience: "25+ years"
+    core_stack: [azure, databricks, ansible, terraform, python]
+    fuel: [espresso, curiosity, starlight]
 
-**Cloud & Data Platforms**  
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
+  tasks:
+    - name: Automate everything that moves
+      ansible.builtin.command: iac --no-manual-steps
+      register: reliability
 
-**Infrastructure as Code & Automation**  
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Packer](https://img.shields.io/badge/Packer-02A8EF?style=flat-square&logo=packer&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+    - name: Train models, ship pipelines, compete on Kaggle
+      loop: [mlops, dataops, machine_learning]
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Perl](https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white)
+    - name: Look up at the night sky
+      when: cloud_cover == 0        # the only time fewer clouds is better
+      notify: stay_curious
 
-**Operating Systems**  
-![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=flat-square&logo=redhat&logoColor=white)
-![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-![IBM AIX](https://img.shields.io/badge/IBM%20AIX-052FAD?style=flat-square&logo=ibm&logoColor=white)
+  handlers:
+    - name: stay_curious
+      ansible.builtin.debug:
+        msg: "Per aspera ad astra ✨"
+```
 
-**Systems Management**  
-![Red Hat Satellite](https://img.shields.io/badge/Red%20Hat%20Satellite-EE0000?style=flat-square&logo=redhat&logoColor=white)
-![SUSE Manager](https://img.shields.io/badge/SUSE%20Manager-0C322C?style=flat-square&logo=suse&logoColor=white)
+<br/>
 
-**Databases**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+## 🚀 Featured Missions
 
-**CI/CD & DevOps**  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white)
-![TeamCity](https://img.shields.io/badge/TeamCity-000000?style=flat-square&logo=teamcity&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+<div align="center">
+  <a href="https://github.com/dapiced/cedd-hackathon">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=cedd-hackathon&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=cedd-hackathon&hide_border=true" alt="cedd-hackathon" />
+    </picture>
+  </a>
+  <a href="https://github.com/dapiced/redhat_status_advanced">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=redhat_status_advanced&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=redhat_status_advanced&hide_border=true" alt="redhat_status_advanced" />
+    </picture>
+  </a>
+  <a href="https://github.com/dapiced/rhel_vmware_disk_manager">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=rhel_vmware_disk_manager&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=rhel_vmware_disk_manager&hide_border=true" alt="rhel_vmware_disk_manager" />
+    </picture>
+  </a>
+  <a href="https://github.com/dapiced/EnsembleLab">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=EnsembleLab&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=EnsembleLab&hide_border=true" alt="EnsembleLab" />
+    </picture>
+  </a>
+  <a href="https://github.com/dapiced/redhat_satellite_capsule_ansible_role_install">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=redhat_satellite_capsule_ansible_role_install&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=redhat_satellite_capsule_ansible_role_install&hide_border=true" alt="redhat_satellite_capsule_ansible_role_install" />
+    </picture>
+  </a>
+  <a href="https://github.com/dapiced/patch_update_yum">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=patch_update_yum&theme=tokyonight&hide_border=true" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=dapiced&repo=patch_update_yum&hide_border=true" alt="patch_update_yum" />
+    </picture>
+  </a>
+</div>
 
----
+<br/>
 
-## Experience Highlights
+## 🧰 Onboard Systems
 
-| Period        | Role                                              | Focus                                                                 |
-|---------------|---------------------------------------------------|-----------------------------------------------------------------------|
-| 2026 - now    | Developer - Azure Infrastructure AI               | Azure for AI, Databricks platform, MLOps / DataOps, IaC, CI/CD        |
-| 2018 - 2025   | Cloud / Linux Administrator & IaC Developer       | Self-service cloud for business clients, IaC in NERC environments     |
-| 2015 - 2018   | IT Standardization Linux System Administrator     | Fleet of 1000+ servers, patching, standardization                     |
-| 2011 - 2015   | IT Linux System Administrator                     | Physical / virtual server deployments, Linux appliances               |
-| 2001 - 2011   | IT Linux System Administrator                     | Installation and configuration of servers and Linux appliances        |
-| 1998 - 2001   | IT Technician & System Administrator              | Internal IT and client support                                        |
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=azure,py,r,bash,powershell,ansible,terraform,githubactions&perline=8" alt="Core stack" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=linux,redhat,postgres,mysql,sqlite,git,gitlab,bitbucket&perline=8" alt="Systems and data" />
+</div>
 
----
+<br/>
 
-## Education & Certifications
+<details>
+<summary><b>🔬 Full equipment manifest — click to expand</b></summary>
+<br/>
+
+| Domain | Technologies |
+|---|---|
+| **Cloud & Data Platforms** | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white) |
+| **IaC & Automation** | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=flat-square&logo=packer&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Perl](https://img.shields.io/badge/Perl-39457E?style=flat-square&logo=perl&logoColor=white) |
+| **Operating Systems** | ![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=flat-square&logo=redhat&logoColor=white) ![SUSE](https://img.shields.io/badge/SUSE-0C322C?style=flat-square&logo=suse&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white) ![IBM AIX](https://img.shields.io/badge/IBM%20AIX-052FAD?style=flat-square&logo=ibm&logoColor=white) |
+| **Systems Management** | ![Red Hat Satellite](https://img.shields.io/badge/Red%20Hat%20Satellite-EE0000?style=flat-square&logo=redhat&logoColor=white) ![SUSE Manager](https://img.shields.io/badge/SUSE%20Manager-0C322C?style=flat-square&logo=suse&logoColor=white) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) |
+| **CI/CD & DevOps** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white) ![TeamCity](https://img.shields.io/badge/TeamCity-000000?style=flat-square&logo=teamcity&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) |
+
+**Core strengths:** `Cloud Infrastructure` · `Infrastructure as Code` · `Automation & Scripting` · `DevOps & CI/CD` · `MLOps / DataOps` · `Security & Compliance (NERC, CIS)` · `Azure & Databricks` · `Team Collaboration`
+
+</details>
+
+<br/>
+
+## 📡 Telemetry
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=dapiced&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&rank_icon=github" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=dapiced&show_icons=true&hide_border=true&count_private=true&rank_icon=github" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=dapiced&layout=compact&hide_border=true&theme=tokyonight" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dapiced&layout=compact&hide_border=true" alt="Top languages" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dapiced&theme=tokyonight&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=dapiced&hide_border=true" alt="Contribution streak" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dapiced&theme=tokyo-night&hide_border=true&radius=8&area=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dapiced&theme=minimal&hide_border=true&radius=8&area=true" alt="Contribution activity graph" width="100%" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=dapiced&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" />
+    <img src="https://github-profile-trophy.vercel.app/?username=dapiced&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=8" alt="GitHub trophies" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dapiced/dapiced/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/dapiced/dapiced/output/github-snake.svg" alt="Contribution snake" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
+## 🗺️ Flight Log — 25+ Years of Service
+
+```mermaid
+timeline
+    title From the server room to the AI cloud
+    1998 : IT Technician & System Administrator
+    2001 : Linux System Administrator : a decade of servers & Linux appliances
+    2011 : Linux System Administrator : physical & virtual deployments
+    2015 : IT Standardization SysAdmin : fleet of 1000+ servers, patching at scale
+    2018 : Cloud / Linux Admin & IaC Developer : self-service cloud, NERC-regulated environments
+    2026 : Developer — Azure Infrastructure AI : Databricks · MLOps · DataOps · CI/CD
+```
+
+<details>
+<summary><b>🎓 Education & Certifications — click to expand</b></summary>
+<br/>
 
 - **Bachelor Certificate, Information Technology Management** — *UQAM, Université du Québec à Montréal*
 - **Diploma of College Studies (DSM)** — *Collège de Bois-de-Boulogne*
 - **University Certificate in Data Science** *(in progress)*
 
-**Specialized training:** Red Hat RHCE Rapid Track (RH299), Red Hat Ansible / Tower, Red Hat Satellite, VMware Infrastructure & Aria Suite, IBM AIX Power System, F5 Big-IP LTM & APM, MS SQL, Security & Network Administration.
+**Specialized training:** Red Hat RHCE Rapid Track (RH299) · Red Hat Ansible / Tower · Red Hat Satellite · VMware Infrastructure & Aria Suite · IBM AIX Power System · F5 Big-IP LTM & APM · MS SQL · Security & Network Administration
 
----
+</details>
 
-## Core Strengths
+<br/>
 
-`Cloud Infrastructure` · `Infrastructure as Code` · `Automation & Scripting` · `DevOps & CI/CD` · `MLOps / DataOps` · `Security & Compliance (NERC, CIS)` · `Azure & Databricks` · `Team Collaboration`
+## 🔭 Beyond the Terminal
 
----
+> After 25 years of managing clouds, I still spend my clearest nights looking at the real ones.
 
-## Beyond Code
+| | |
+|---|---|
+| 🌌 **Astronomy** | Exploring celestial objects and following the latest discoveries — from JWST deep fields to backyard skies |
+| 🧠 **Artificial Intelligence** | Studying ML advances and how they translate into real-world impact — then testing myself on Kaggle |
+| ⚛️ **Physics** | Fascinated by the fundamental laws that describe our universe — the original distributed system |
 
-When I step away from the terminal, my curiosity stays on. I enjoy:
+These passions feed my work: the same curiosity that scans the night sky also debugs the pipeline at 2 a.m.
 
-- **Astronomy** - exploring celestial objects and following the latest discoveries.
-- **Artificial Intelligence** - studying ML advances and how they translate into real-world impact.
-- **Science & Physics** - especially the fundamental laws that describe our universe.
-
-These interests feed my work and keep lifelong learning at the center of what I do.
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dapiced&show_icons=true&hide_border=true&theme=default&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dapiced&layout=compact&hide_border=true&theme=default" alt="Top languages" />
-</p>
+<br/>
 
 ---
 
 <p align="center"><em>"Delivering scalable, secure, and efficient infrastructure solutions aligned with business strategy."</em></p>
 
 <p align="center">
-  <code>#DataScience</code> <code>#MachineLearning</code> <code>#Kaggle</code> <code>#AI</code> <code>#Azure</code> <code>#MLOps</code> <code>#ContinuousLearning</code>
+  <code>#Azure</code> <code>#MLOps</code> <code>#DataOps</code> <code>#DataScience</code> <code>#MachineLearning</code> <code>#Kaggle</code> <code>#IaC</code> <code>#ContinuousLearning</code>
 </p>
 
-<!--
-**dapiced/dapiced** is a special repository because its README.md appears on your GitHub profile.
--->
+<div align="center">
+  <img src="assets/footer.svg" width="100%" alt="Per aspera ad astra — Thanks for stopping by" />
+</div>

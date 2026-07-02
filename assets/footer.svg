@@ -1,0 +1,52 @@
+<svg viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Per aspera ad astra">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04060f"/>
+      <stop offset="100%" stop-color="#0b1226"/>
+    </linearGradient>
+    <radialGradient id="planetSurface" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#1c2f55"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </radialGradient>
+    <linearGradient id="horizonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="160" rx="16" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#dbe9ff">
+    <circle cx="60" cy="35" r="1.1"/><circle cx="150" cy="60" r="0.8"/><circle cx="240" cy="28" r="1.0"/>
+    <circle cx="330" cy="52" r="0.8"/><circle cx="560" cy="30" r="1.0"/><circle cx="650" cy="58" r="0.8"/>
+    <circle cx="740" cy="26" r="1.1"/><circle cx="830" cy="48" r="0.9"/><circle cx="450" cy="22" r="0.9"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="110" cy="45" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="38" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="4.2s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="40" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="70" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.7s" begin="0.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- planet horizon -->
+  <path d="M 0 160 L 0 148 Q 450 96 900 148 L 900 160 Z" fill="url(#planetSurface)"/>
+  <path d="M 0 148 Q 450 96 900 148" fill="none" stroke="url(#horizonGlow)" stroke-width="2" filter="url(#fsoft)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- tiny satellite crossing -->
+  <g>
+    <circle r="1.8" fill="#e6edf3"/>
+    <rect x="-6" y="-0.6" width="4" height="1.2" fill="#79c0ff"/>
+    <rect x="2" y="-0.6" width="4" height="1.2" fill="#79c0ff"/>
+    <animateMotion path="M -30,95 Q 450,55 930,95" dur="16s" repeatCount="indefinite" rotate="auto"/>
+  </g>
+
+  <text x="450" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#9baec8" letter-spacing="2">&#171; Per aspera ad astra &#187;</text>
+  <text x="450" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6e7f9b" letter-spacing="1">Thanks for stopping by &#8212; Merci de votre visite</text>
+</svg>
