@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile assets
 
 on:
   schedule:
@@ -11,11 +11,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate snake animations
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,6 +30,11 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Generate stat cards
+        run: python3 scripts/generate_cards.py dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

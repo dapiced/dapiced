@@ -1,0 +1,83 @@
+<svg viewBox="0 0 900 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mission patches">
+  <defs>
+    <linearGradient id="patchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tiny stars between patches -->
+  <g fill="#8b949e" opacity="0.7">
+    <circle cx="195" cy="45" r="1.2"/><circle cx="365" cy="88" r="1.2"/>
+    <circle cx="535" cy="42" r="1.2"/><circle cx="705" cy="90" r="1.2"/>
+    <circle cx="30" cy="95" r="1"/><circle cx="870" cy="38" r="1"/>
+  </g>
+
+  <!-- patch 1: 25+ years of service -->
+  <g>
+    <polygon points="110,19 149.8,42 149.8,88 110,111 70.2,88 70.2,42" fill="#0d1526" stroke="url(#patchGrad)" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="110,25 144.6,45 144.6,85 110,105 75.4,85 75.4,45" fill="none" stroke="#22304f" stroke-width="1"/>
+    <text x="110" y="63" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="url(#patchGrad)">25+</text>
+    <text x="110" y="80" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#79c0ff">YEARS</text>
+    <text x="110" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="0.8" fill="#8b949e">OF SERVICE</text>
+  </g>
+
+  <!-- patch 2: IaC automation -->
+  <g>
+    <polygon points="280,19 319.8,42 319.8,88 280,111 240.2,88 240.2,42" fill="#0d1526" stroke="url(#patchGrad)" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="280,25 314.6,45 314.6,85 280,105 245.4,85 245.4,45" fill="none" stroke="#22304f" stroke-width="1"/>
+    <text x="280" y="62" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="700" fill="#bc8cff">{ }</text>
+    <text x="280" y="80" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#79c0ff">IaC</text>
+    <text x="280" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="0.8" fill="#8b949e">AUTOMATION</text>
+  </g>
+
+  <!-- patch 3: MLOps / DataOps -->
+  <g>
+    <polygon points="450,19 489.8,42 489.8,88 450,111 410.2,88 410.2,42" fill="#0d1526" stroke="url(#patchGrad)" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="450,25 484.6,45 484.6,85 450,105 415.4,85 415.4,45" fill="none" stroke="#22304f" stroke-width="1"/>
+    <g stroke="#bc8cff" stroke-width="1.2">
+      <line x1="440" y1="56" x2="456" y2="46"/><line x1="456" y1="46" x2="460" y2="60"/><line x1="440" y1="56" x2="460" y2="60"/>
+    </g>
+    <g fill="#bc8cff">
+      <circle cx="440" cy="56" r="3"/><circle cx="456" cy="46" r="3"/><circle cx="460" cy="60" r="3"/>
+    </g>
+    <text x="450" y="80" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#79c0ff">MLOPS</text>
+    <text x="450" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="0.8" fill="#8b949e">DATAOPS</text>
+  </g>
+
+  <!-- patch 4: Kaggle competitor -->
+  <g>
+    <polygon points="620,19 659.8,42 659.8,88 620,111 580.2,88 580.2,42" fill="#0d1526" stroke="url(#patchGrad)" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" begin="2.4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="620,25 654.6,45 654.6,85 620,105 585.4,85 585.4,45" fill="none" stroke="#22304f" stroke-width="1"/>
+    <g fill="#bc8cff">
+      <rect x="608" y="52" width="6" height="10" rx="1"/>
+      <rect x="617" y="44" width="6" height="18" rx="1"/>
+      <rect x="626" y="48" width="6" height="14" rx="1"/>
+    </g>
+    <text x="620" y="80" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#79c0ff">KAGGLE</text>
+    <text x="620" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="0.8" fill="#8b949e">COMPETITOR</text>
+  </g>
+
+  <!-- patch 5: stargazer -->
+  <g>
+    <polygon points="790,19 829.8,42 829.8,88 790,111 750.2,88 750.2,42" fill="#0d1526" stroke="url(#patchGrad)" stroke-width="1.6">
+      <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="4s" begin="3.2s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="790,25 824.6,45 824.6,85 790,105 755.4,85 755.4,45" fill="none" stroke="#22304f" stroke-width="1"/>
+    <g transform="translate(781,42) scale(1.1)">
+      <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#e3b341">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="790" y="80" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#79c0ff">STARGAZER</text>
+    <text x="790" y="93" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="8.5" letter-spacing="0.8" fill="#8b949e">NIGHT OPS</text>
+  </g>
+</svg>
