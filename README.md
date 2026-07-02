@@ -204,7 +204,7 @@ timeline
 
 - **Bachelor Certificate, Information Technology Management** — *UQAM, Université du Québec à Montréal*
 - **Diploma of College Studies (DSM)** — *Collège de Bois-de-Boulogne*
-- **University Certificate in Data Science** *(in progress)*
+- **University Certificate in Data Science** *(almost finished!)*
 
 **Specialized training:** Red Hat RHCE Rapid Track (RH299) · Red Hat Ansible / Tower · Red Hat Satellite · VMware Infrastructure & Aria Suite · IBM AIX Power System · F5 Big-IP LTM & APM · MS SQL · Security & Network Administration
 
