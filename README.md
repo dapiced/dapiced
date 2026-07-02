@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://dapiced.github.io"><img src="https://img.shields.io/badge/🌌%20Website-dapiced.github.io-1f6feb?style=for-the-badge" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/dapiced/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.kaggle.com/dominicdapice"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
   <a href="https://huggingface.co/dapiced"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face" /></a>
