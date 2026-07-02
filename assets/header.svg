@@ -14,6 +14,11 @@
       <stop offset="0%" stop-color="#e6f1ff" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#e6f1ff" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="goldStar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#e3b341" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#e3b341" stop-opacity="0"/>
+    </radialGradient>
     <radialGradient id="planetGrad" cx="35%" cy="30%" r="80%">
       <stop offset="0%" stop-color="#79c0ff"/>
       <stop offset="55%" stop-color="#1f6feb"/>
@@ -79,6 +84,14 @@
     <circle cx="615" cy="55" r="2" fill="#ffffff" filter="url(#soft)"/>
     <path d="M 615 45 L 615 65 M 605 55 L 625 55" stroke="#cfe4ff" stroke-width="0.8" opacity="0.8"/>
     <animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ✦ Vincenzo D'Apice (1937-2022) — the golden star, always close by -->
+  <g>
+    <circle cx="352" cy="48" r="10" fill="url(#goldStar)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="352" cy="48" r="1.9" fill="#ffe9a8"/>
   </g>
 
   <!-- comet -->
