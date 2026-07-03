@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="Dominic D'Apice — Azure Infrastructure AI" />
+  <img src="assets/header.svg" width="100%" alt="Dominic D'Apice — Azure Infrastructure AI" title="✦ The little golden star is Vincenzo D'Apice (1937–2022) — Papa, always close by" />
 </div>
 
 <p align="center">
