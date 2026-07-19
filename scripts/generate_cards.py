@@ -6,7 +6,7 @@ queries the GitHub REST API and renders SVG cards (dark + light variants)
 into an output directory, published to the `output` branch by CI.
 
 Usage: python scripts/generate_cards.py [output_dir]   (default: dist)
-Env:   GITHUB_TOKEN — optional, raises API rate limits in CI.
+Env:   GITHUB_TOKEN - optional, raises API rate limits in CI.
 """
 
 import json
@@ -139,7 +139,7 @@ def render_stats(user, stars, forks, t):
         f'xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats">'
         + card_shell(w, h, t)
         + f'<text x="34" y="32" {FONT} font-size="14" font-weight="700" '
-          f'letter-spacing="2" fill="{t["title"]}">MISSION TELEMETRY — @{USER}</text>'
+          f'letter-spacing="2" fill="{t["title"]}">MISSION TELEMETRY - @{USER}</text>'
         + f'<line x1="34" y1="42" x2="{w - 34}" y2="42" stroke="{t["border"]}"/>'
         + cells
         + f'<text x="34" y="{h - 14}" {MONO} font-size="10" fill="{t["muted"]}">'
@@ -177,7 +177,7 @@ def render_langs(tech_counts, t):
         f'xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech footprint">'
         + card_shell(w, h, t)
         + f'<text x="34" y="32" {FONT} font-size="14" font-weight="700" '
-          f'letter-spacing="2" fill="{t["title"]}">TECH FOOTPRINT — BY REPOSITORY</text>'
+          f'letter-spacing="2" fill="{t["title"]}">TECH FOOTPRINT - BY REPOSITORY</text>'
         + f'<line x1="34" y1="42" x2="{w - 34}" y2="42" stroke="{t["border"]}"/>'
         + f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="10" rx="5" '
           f'fill="{t["track"]}"/>'
@@ -238,7 +238,7 @@ def main():
     forks = sum(r["forks_count"] for r in own)
 
     # Primary tech per repo. Linguist ignores YAML, which would hide the
-    # Ansible roles entirely — infer them from topics/name instead.
+    # Ansible roles entirely - infer them from topics/name instead.
     tech_counts = {}
     for r in own:
         if r["name"] == USER:  # profile repo itself
