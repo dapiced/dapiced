@@ -80,7 +80,7 @@ Because a profile should be reproducible, here is mine - as code:
       <img src="https://raw.githubusercontent.com/dapiced/dapiced/output/repo-cedd-hackathon-light.svg" alt="cedd-hackathon" />
     </picture>
   </a>
-  <a href="https://https://github.com/dapiced/Mila_Hackathon_AI">
+  <a href="https://github.com/dapiced/Mila_Hackathon_AI">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dapiced/dapiced/output/Mila_Hackathon_AI-dark.svg" />
       <img src="https://raw.githubusercontent.com/dapiced/dapiced/output/Mila_Hackathon_AI-light.svg" alt="Mila_Hackathon_AI" />
