@@ -19,6 +19,7 @@ USER = "dapiced"
 API = "https://api.github.com"
 PINNED = [
     "cedd-hackathon",
+    "Mila_Hackathon_AI",
     "redhat_status_advanced",
     "rhel_vmware_disk_manager",
     "EnsembleLab",

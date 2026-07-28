@@ -82,8 +82,8 @@ Because a profile should be reproducible, here is mine - as code:
   </a>
   <a href="https://github.com/dapiced/Mila_Hackathon_AI">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dapiced/dapiced/output/Mila_Hackathon_AI-dark.svg" />
-      <img src="https://raw.githubusercontent.com/dapiced/dapiced/output/Mila_Hackathon_AI-light.svg" alt="Mila_Hackathon_AI" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dapiced/dapiced/output/repo-Mila_Hackathon_AI-dark.svg" />
+      <img src="https://raw.githubusercontent.com/dapiced/dapiced/output/repo-Mila_Hackathon_AI-light.svg" alt="Mila_Hackathon_AI" />
     </picture>
   </a>
   <a href="https://github.com/dapiced/redhat_status_advanced">
