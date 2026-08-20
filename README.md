@@ -78,8 +78,8 @@ Because a profile should be reproducible, here is mine - as code:
 
 <br/>
 
-<details>
-<summary><b>🔬 Full equipment manifest - click to expand</b></summary>
+<details open>
+<summary><b>🔬 Full equipment manifest</b></summary>
 <br/>
 
 | Domain | Technologies |
