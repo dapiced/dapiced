@@ -153,8 +153,8 @@ timeline
     2026 : Developer - Azure Infrastructure AI : Databricks · MLOps · DataOps · CI/CD
 ```
 
-<details>
-<summary><b>🎓 Education & Certifications - click to expand</b></summary>
+<details open>
+<summary><b>🎓 Education & Certifications</b></summary>
 <br/>
 
 - **Bachelor Certificate, Information Technology Management** - *UQAM, Université du Québec à Montréal*
