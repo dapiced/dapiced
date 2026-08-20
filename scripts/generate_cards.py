@@ -17,15 +17,6 @@ from datetime import datetime, timezone
 
 USER = "dapiced"
 API = "https://api.github.com"
-PINNED = [
-    "cedd-hackathon",
-    "Mila_Hackathon_AI",
-    "redhat_status_advanced",
-    "rhel_vmware_disk_manager",
-    "EnsembleLab",
-    "redhat_satellite_capsule_ansible_role_install",
-    "patch_update_yum",
-]
 
 LANG_COLORS = {
     "Python": "#3572A5", "R": "#198CE7", "HTML": "#e34c26", "CSS": "#563d7c",
@@ -52,17 +43,6 @@ THEMES = {
 FONT = "font-family=\"Segoe UI, Ubuntu, Helvetica, Arial, sans-serif\""
 MONO = "font-family=\"Consolas, 'Courier New', monospace\""
 
-STAR_PATH = ("M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 "
-             ".416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347"
-             "l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 "
-             "0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z")
-FORK_PATH = ("M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878"
-             "a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128"
-             "a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878"
-             "a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 "
-             "1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75"
-             ".75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z")
-
 
 def get(url):
     headers = {"Accept": "application/vnd.github+json",
@@ -78,26 +58,6 @@ def get(url):
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
              .replace('"', "&quot;"))
-
-
-def wrap(text, width, max_lines):
-    words, lines, cur = text.split(), [], ""
-    for w in words:
-        cand = f"{cur} {w}".strip()
-        if len(cand) <= width:
-            cur = cand
-        else:
-            lines.append(cur)
-            cur = w
-            if len(lines) == max_lines:
-                break
-    if cur and len(lines) < max_lines:
-        lines.append(cur)
-    if len(lines) == max_lines and " ".join(words) != " ".join(lines).strip():
-        joined = " ".join(lines)
-        if len(joined) < len(text):
-            lines[-1] = lines[-1][: width - 1].rstrip() + "…"
-    return lines
 
 
 def card_shell(w, h, t, deco_stars=True):
@@ -188,46 +148,6 @@ def render_langs(tech_counts, t):
         + legend + "</svg>")
 
 
-def render_pin(repo, t):
-    w, h = 450, 140
-    desc = (repo.get("description") or "").replace("**", "")
-    lines = wrap(desc, 66, 2)
-    desc_svg = "".join(
-        f'<text x="34" y="{62 + i * 17}" {FONT} font-size="12" fill="{t["label"]}">'
-        f'{esc(ln)}</text>' for i, ln in enumerate(lines))
-    lang = repo.get("language")
-    footer, fx = "", 34
-    if lang:
-        color = LANG_COLORS.get(lang, t["accent"])
-        footer += (f'<circle cx="{fx + 5}" cy="{h - 27}" r="5" fill="{color}"/>'
-                   f'<text x="{fx + 16}" y="{h - 23}" {FONT} font-size="12" '
-                   f'fill="{t["text"]}">{esc(lang)}</text>')
-        fx += 16 + 8 * len(lang) + 26
-    footer += (
-        f'<g transform="translate({fx},{h - 38}) scale(0.85)">'
-        f'<path d="{STAR_PATH}" fill="{t["star"]}"/></g>'
-        f'<text x="{fx + 19}" y="{h - 23}" {FONT} font-size="12" fill="{t["text"]}">'
-        f'{repo["stargazers_count"]}</text>'
-        f'<g transform="translate({fx + 46},{h - 38}) scale(0.85)">'
-        f'<path d="{FORK_PATH}" fill="{t["label"]}"/></g>'
-        f'<text x="{fx + 65}" y="{h - 23}" {FONT} font-size="12" fill="{t["text"]}">'
-        f'{repo["forks_count"]}</text>')
-    name = esc(repo["name"])
-    name_size = 15 if len(repo["name"]) <= 42 else 12.5
-    return (
-        f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
-        f'xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{name}">'
-        + card_shell(w, h, t)
-        + f'<circle cx="41" cy="27" r="6" fill="none" stroke="{t["accent"]}" '
-          f'stroke-width="1.6"/>'
-        + f'<ellipse cx="41" cy="27" rx="11" ry="3.4" fill="none" '
-          f'stroke="{t["accent"]}" stroke-width="1" opacity="0.6" '
-          f'transform="rotate(-18 41 27)"/>'
-        + f'<text x="60" y="32" {FONT} font-size="{name_size}" font-weight="700" '
-          f'fill="{t["title"]}">{name}</text>'
-        + desc_svg + footer + "</svg>")
-
-
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else "dist"
     os.makedirs(out, exist_ok=True)
@@ -252,7 +172,6 @@ def main():
             tech_counts[tech] = tech_counts.get(tech, 0) + 1
     LANG_COLORS.setdefault("Ansible", "#EE0000")
 
-    by_name = {r["name"]: r for r in repos}
     written = []
     for variant, t in THEMES.items():
         suffix = "dark" if variant == "dark" else "light"
@@ -260,10 +179,6 @@ def main():
             f"stats-{suffix}.svg": render_stats(user, stars, forks, t),
             f"langs-{suffix}.svg": render_langs(tech_counts, t),
         }
-        for repo_name in PINNED:
-            repo = by_name.get(repo_name)
-            if repo:
-                files[f"repo-{repo_name}-{suffix}.svg"] = render_pin(repo, t)
         for fname, svg in files.items():
             with open(os.path.join(out, fname), "w", encoding="utf-8") as f:
                 f.write(svg)
